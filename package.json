@@ -4,7 +4,7 @@
   "description": "Estudo de API Rest com Testes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
