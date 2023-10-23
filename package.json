@@ -4,7 +4,7 @@
   "description": "Estudo de API Rest com Testes",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,7 @@
     "eslint": "^8.52.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.28.1",
-    "jest": "28.1.0"
+    "jest": "^29.7.0"
   },
   "type": "module"
 }
