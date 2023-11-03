@@ -1,4 +1,4 @@
-import { somaHorasExtras, calculaDescontos } from '../index.js';
+import { somaHorasExtras, calculaDescontos } from '../index';
 
 describe('Testes das funcoes de Folha de Pagamento', () => {
   it('Deve retornar a soma das Horas Extras', () => {
