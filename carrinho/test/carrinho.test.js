@@ -61,4 +61,16 @@ describe('Testes do Carrinho', () => {
       total: 25,
     });
   });
+
+  it('Deve trazer o total dos itens com Frete', () => {
+    const item = new Item('Banana', 3, 5);
+    const item2 = new Item('Mel', 4, 5);
+
+    const carrinho = new Carrinho();
+    carrinho.adiciona(item);
+    carrinho.adiciona(item2);
+    carrinho.adicionaFrete(5);
+
+    expect(carrinho.calculaTotal()).toBe(40);
+  });
 });
