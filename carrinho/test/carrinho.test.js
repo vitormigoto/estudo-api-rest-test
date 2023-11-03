@@ -23,4 +23,10 @@ describe('Testes do Carrinho', () => {
     expect(carrinho.itens).toContain(item);
     expect(carrinho.itens).toContain(item2);
   });
+
+  it('Deve ter a propriedade "total" na inicialização', () => {
+    const carrinho = new Carrinho();
+
+    expect(carrinho).toHaveProperty('total');
+  });
 });
